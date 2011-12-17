@@ -1,0 +1,3 @@
+h1. GokyAdmin
+
+Wrapper for the minecraft server that will popup notifications at every login on the server
