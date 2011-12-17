@@ -7,6 +7,7 @@ import shutil, datetime
 from PyQt4 import QtCore, QtGui, Qt
 
 from main_ui import Ui_MainWindow
+import images_rc
 
 ROOT_PATH = os.getcwd()
 
@@ -25,9 +26,9 @@ class MyForm(QtGui.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         self.setWindowTitle('GokyAdmin')
-        self.setWindowIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.ico')))   
+        self.setWindowIcon(QtGui.QIcon(':/png/icon.png'))   
 
-        self.icon = QtGui.QSystemTrayIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.ico')))
+        self.icon = QtGui.QSystemTrayIcon(QtGui.QIcon(':/png/icon.png'))
 
         self.icon.activated.connect(self.toggleWindow)
         self.icon.show()
