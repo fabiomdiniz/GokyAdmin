@@ -7,3 +7,7 @@ Wrapper for the minecraft server that will popup notifications at every login on
 h2. Instructions
 
 Just drop it on the folder where you hold the jar of your server
+
+h2. Download
+
+"Win32":https://github.com/downloads/fabiomdiniz/GokyAdmin/gokyAdmin.exe
