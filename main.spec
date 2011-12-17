@@ -17,6 +17,6 @@ exe = EXE( pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False , icon='icon.png')
+          console=False , icon='icon.ico')
 app = BUNDLE(exe,
              name=os.path.join('dist', 'main.exe.app'))

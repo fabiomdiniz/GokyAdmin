@@ -25,9 +25,9 @@ class MyForm(QtGui.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         self.setWindowTitle('GokyAdmin')
-        self.setWindowIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.png')))   
+        self.setWindowIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.ico')))   
 
-        self.icon = QtGui.QSystemTrayIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.png')))
+        self.icon = QtGui.QSystemTrayIcon(QtGui.QIcon(os.path.join(ROOT_PATH, 'icon.ico')))
 
         self.icon.activated.connect(self.toggleWindow)
         self.icon.show()
