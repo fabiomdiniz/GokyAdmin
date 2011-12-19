@@ -10,4 +10,4 @@ Just drop it on the folder where you hold the jar of your server
 
 h2. Download
 
-"Win32":https://github.com/downloads/fabiomdiniz/GokyAdmin/gokyAdmin.exe
+"Win32":https://github.com/downloads/fabiomdiniz/GokyAdmin/gokyAdmin.rar
