@@ -29,7 +29,8 @@ class MyForm(QtGui.QMainWindow, Ui_MainWindow):
         self.setWindowIcon(QtGui.QIcon(':/png/icon.png'))   
 
         self.icon = QtGui.QSystemTrayIcon(QtGui.QIcon(':/png/icon.png'))
-
+        self.icon.setToolTip(get_world_name())
+        
         self.icon.activated.connect(self.toggleWindow)
         self.icon.show()
 
